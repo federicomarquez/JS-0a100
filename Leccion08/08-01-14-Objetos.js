@@ -17,4 +17,4 @@ let persona2 = {
 console.log(persona1.nombreCompleto("lic", "66551122"));
 
 let Arreglo = ["ing", "55667744"];
-console.log(persona1.nombreCompleto.apply(persona2, arreglo));
+console.log(persona1.nombreCompleto.apply(persona2, Arreglo));
