@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 class Persona {
     constructor(nombre, apellido){
         this.nombre = nombre;
@@ -11,7 +11,7 @@ console.log(persona1);
 
 let persona2 = new Persona("Carlos","Lara");
 console.log(persona2);
-=======
+
 class Persona{
     constructor(nombre, apellido){
         this.nombre = nombre; 
@@ -19,9 +19,9 @@ class Persona{
     }
 }
 
-let persona1 = new Persona('Juan', 'Perez');
+let persona3 = new Persona('Juan', 'Perez');
 console.log( persona1 );
 
-let persona2 = new Persona('Carlos', 'Lara');
+let persona4 = new Persona('Carlos', 'Lara');
 console.log( persona2 );
->>>>>>> 5ad59f7c9c1cf1d3b5368a133e93d18cd2c3bbf3
+
