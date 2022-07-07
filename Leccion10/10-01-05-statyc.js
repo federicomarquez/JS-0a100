@@ -1,13 +1,9 @@
 class Persona{
-
-
     static contadorPersona = 0; //atributo de nuestra clase 
 
     static get MAX_OBJ(){
         return 5;
     }
-
-
     constructor(nombre, apellido){
         this._nombre = nombre; 
         this._apellido = apellido;
@@ -18,7 +14,6 @@ class Persona{
             console.log("se han alcanzado el numero maximo de personas")
         }
 
-        
     }
     get nombre(){
         return this._nombre;
@@ -37,7 +32,7 @@ class Persona{
     }
     //sobreescribiendo el metodo de la clase padre (Object)
     toString(){
-        //se aplica polimorfismo(mulriples formas en tiempo de ejecucion)
+        //se aplica polimorfismo(multiples formas en tiempo de ejecucion)
         //el metodo que se ejecuta depende si es una referencia de tipo padre 
         //o de tipo hijo
         return this.nombreCompleto();
@@ -87,6 +82,7 @@ let persona5 =  new Persona("laura", "kinteros")
 console.log(persona4.toString());
 console.log(persona5.toString());
 
+console.log(Persona.MAX_OBJ);
 
 
 
