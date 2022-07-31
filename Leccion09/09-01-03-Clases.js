@@ -3,7 +3,7 @@
 //No se aplica el concepto de hoisting 
 //let persona2 = new Persona("karla", "Juarez");
 
-class Persona {
+class Personas {
     constructor(nombre, apellido){
         this._nombre = nombre;
         this._apellido = apellido;
@@ -18,12 +18,12 @@ class Persona {
     }
 }
 
-let persona1 = new Persona("Juan","Perez");
-persona1.nombre = "juan Carlos"; //set nombre
-console.log(persona1.nombre);//get nombre
+let persona11 = new Personas("Juan","Perez");
+persona11.nombre = "juan Carlos"; //set nombre
+console.log(persona11.nombre);//get nombre
 
 
-let persona2 = new Persona("karla", "Juarez");
+let persona2 = new Personas("karla", "Juarez");
 console.log(persona2);
 
 class Persona{
