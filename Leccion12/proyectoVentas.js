@@ -100,3 +100,5 @@ orden2.agregarProducto(producto3);
 orden2.agregarProducto(producto1);
 orden2.agregarProducto(producto2);
 orden2.mostrarOrden();
+
+console.log(8/2)
