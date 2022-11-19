@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo DOM con JavaScript</title>
+</head>
+<body>
+    <h1 id='cabecero'>Ejemplo DOM con JavaScript</h1>
+    <p id='parrafo'>Saludos!</p>
+
+    <script>
+        let cabecero = document.getElementById('cabecero');
+        console.log('valor cabecero:' + cabecero.innerHTML);
+        let parrafo = document.getElementById('parrafo').innerHTML;
+        console.log('valor parrafo:' + parrafo); 
+        console.log('saludos desde JavaScript');
+        cabecero.innerHTML = "nuevo cabecero"; //no cambia en la consola, solo cambia en la portada
+    </script>
+</body>
+</html>
